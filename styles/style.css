@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  width: 100%;
+  background: #2ddf5c;
+  padding: 8px 16px;
+}
+
+.main-nav-item {
+  display: inline-block;
+}
+
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 74px);
+  vertical-align: middle;
+  font-family: "Anton", sans-serif;
+}
+
+.main-nav-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-header-brand {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.9rem;
+}
